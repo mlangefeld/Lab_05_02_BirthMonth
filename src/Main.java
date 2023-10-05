@@ -5,8 +5,6 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         int birthMonth = 0;
-        int favNum = 0;
-        String trash = "";
 
         System.out.print("What month were you born in? [1-12]: ");
 
@@ -18,7 +16,7 @@ public class Main {
                 System.out.println("Your birth month is " + birthMonth);
             }else
             {
-                System.out.println("You entered " + birthMonth + " which isnt a valid birth month");
+                System.out.println("You entered " + birthMonth + " which isn't a valid birth month");
             }
 
         }
